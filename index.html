@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/glider/glider.min.css" />
+    <script
+      src="https://kit.fontawesome.com/b51da895f1.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Lucas portfolio</title>
+  </head>
+  <body>
+    <header>
+      <nav class="menu">
+        <div class="logo"><a href="/">Port.</a></div>
+        <div class="navegacao">
+          <a href="/">home</a>
+          <a href="#who">who am i</a>
+          <a href="#skills">skills</a>
+          <a href="#project">projects</a>
+          <a href="#contact">contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="contentAll">
+        <div class="info-home">
+          <img
+            src="/assets/image/Eu.png"
+            alt="minha imagem, sou Lucas Oliveira"
+            class="myImage"
+          />
+          <div class="conteudo-home-principal">
+            <h2>hello, my name is</h2>
+            <h1 class="titulo">Lucas Oliveira</h1>
+            <p>
+              Front-End Developer, I like to create web applications, learn new
+              things everyday, i'm curious, disciplined and passionate.
+            </p>
+            <a href="#projects" class="btn-mywork">my work</a>
+          </div>
+        </div>
+        <div class="info-who-am-i" id="who">
+          <div class="who-am-i-text">
+            <h2>Who am i?</h2>
+            <p>
+              My name is Lucas, I'm 20 years old. I live in São Paulo and I am
+              simply passionate about technology, since I was little I watched
+              those hacker movies and I was simply fascinated and wanted to at
+              least trying to be the same, this motivated me to enter the area
+              of ​​technology.
+            </p>
+            <p>
+              Currently my focus is on the Front-End, but I don't want to stop
+              there. I always try to put my foot in the Back-End to gain some
+              experience, even if little.
+            </p>
+
+            <p>
+              I have skills with HTML5, CSS3, Javacript, Jquery, Flexbox, Grid
+              Layout and Git. I'm still firm studying to be able to improve and
+              learn new technologies that I like and also of course, that are
+              hot on the market!
+            </p>
+
+            <div class="who-btn">
+              <a href="#projects">MY WORK</a>
+              <a href="#contact">CONTACT</a>
+            </div>
+          </div>
+          <img
+            src="/assets/image/notebook/mesa.png"
+            alt="minha imagem, sou Lucas Oliveira"
+            class="myImage"
+          />
+        </div>
+        <div class="info-skills">
+          <h2 class="skills-titulo">Skills</h2>
+          <div class="notebook">
+            <img src="/assets/image/notebook/971 [Convertido].svg" alt="" />
+          </div>
+          <div class="icons">
+            <i class="fa-brands fa-html5"></i>
+            <i class="fa-brands fa-css3-alt"></i>
+            <i class="fa-brands fa-js-square"></i>
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-git-alt"></i>
+            <img src="/assets/image/icons/PS.svg" alt="" />
+            <img src="/assets/image/icons/XD.svg" alt="" />
+            <img src="/assets/image/icons/sass.svg" alt="" />
+          </div>
+        </div>
+
+        <div class="info-projects" id="projects">
+          <div class="content">
+            <div class="slides">
+              <input type="radio" name="slide" id="slide1" checked />
+              <input type="radio" name="slide" id="slide2" />
+              <input type="radio" name="slide" id="slide3" />
+              <input type="radio" name="slide" id="slide4" />
+              <input type="radio" name="slide" id="slide5" />
+
+              <div class="slide s1">
+                <img
+                  src="/assets/image/projects/laddingPageHomemAranha.PNG"
+                  alt="Ladding page do homem aranha"
+                />
+              </div>
+              <div class="slide">
+                <img
+                  src="/assets/image/projects/captureTheLead.PNG"
+                  alt="Página de captura de lead"
+                />
+              </div>
+              <div class="slide">
+                <img
+                  src="/assets/image/projects/flappy.PNG"
+                  alt="Jogo flappybird"
+                />
+              </div>
+              <div class="slide">
+                <img
+                  src="/assets/image/projects/stopwatch.PNG"
+                  alt="Cronometro"
+                />
+              </div>
+              <div class="slide">
+                <img src="/assets/image/projects/todoList.PNG" alt="Todolist" />
+              </div>
+            </div>
+            <div class="nagivation">
+              <label for="slide1"></label>
+              <label for="slide2"></label>
+              <label for="slide3"></label>
+              <label for="slide4"></label>
+              <label for="slide5"></label>
+            </div>
+          </div>
+        </div>
+
+        <div class="info-contact">
+          <h2 class="contactMe">Contact me</h2>
+          <div class="formulario">
+            <form>
+              <label for="name">Name</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Enter your name"
+              />
+              <label for="name">E-mail</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter your e-mail"
+              />
+              <label for="name">Description</label>
+              <textarea
+                name="description"
+                id="description"
+                placeholder="What is the reason for the contact?"
+              ></textarea>
+              <button type="submit">SEND</button>
+            </form>
+          </div>
+          <div class="message">
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="/assets//js/script.js"></script>
+    <script src="/assets/glider/glider.min.js"></script>
+  </body>
+</html>

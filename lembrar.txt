@@ -1,0 +1,5 @@
+A caixa tem que estar com display none ou block
+a caixa dos itens pode ser display flex.
+
+tentar a oção de criar um for para percorrer o array da nav, ao clicar ela coloca todas as outras em 
+display none e a que estão sendo clicada fica com display block.
