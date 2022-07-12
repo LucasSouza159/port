@@ -7,7 +7,7 @@
 body{
     max-width: 1280px;
     margin: 0 auto;
-    background: linear-gradient(-45deg, rgb(255, 255, 255), #e6e6e6, rgb(151, 151, 151),rgb(34, 34, 34));
+    background: linear-gradient(-45deg, rgb(255, 255, 255), #e4e4e4);
     animation: gradient 10s ease infinite;
     background-size: 300% 300%;
 }
@@ -116,7 +116,7 @@ body{
     height: 5px;
     background-color: #424242;
     position: absolute;
-    top: 165%;
+    top: 100%;
     border-radius: 50%;
 }
 .info-who-am-i img{
@@ -171,7 +171,7 @@ body{
     height: 5px;
     background-color: #424242;
     position: absolute;
-    top: 225%;
+    top: 105%;
     border-radius: 50%;
 }
 .skills-titulo{
@@ -215,7 +215,7 @@ body{
     border-radius: 20px;
     overflow: hidden;
     position: absolute;
-    top: 50%;
+    top: 250%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -394,4 +394,21 @@ body{
     100%{
         background-position: 0 50%;
     }
+}
+
+
+[data-anime]{
+    opacity: 0;
+    transition: .3s;
+}
+[data-anime="left"]{
+    transform: translate3d(-50px, 0, 0);
+}
+[data-anime="right"]{
+    transform: translate3d(50px, 0, 0);
+}
+
+[data-anime].animate{
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
 }
